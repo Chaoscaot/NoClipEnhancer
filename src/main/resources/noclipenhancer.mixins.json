@@ -1,0 +1,17 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "de.chaoscaot.noclipenhancer.mixin",
+  "compatibilityLevel": "JAVA_17",
+  "mixins": [
+    "ScrollMixin",
+    "MinecraftClientMixin",
+    "GameRendererMixin",
+    "HeldItemRendererMixin"
+  ],
+  "client": [
+  ],
+  "injectors": {
+    "defaultRequire": 1
+  }
+}
